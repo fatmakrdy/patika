@@ -15,11 +15,9 @@ public class ucgen {
      
 	    u=(kenar1+kenar2+kenar3)/2;
 	    cevre=2*u;
-	    alan=Math.sqrt(u*(u-kenar1)*(u-kenar2)*(u-kenar1));
+	    alan=Math.sqrt(u*(u-kenar1)*(u-kenar2)*(u-kenar3));
         System.out.println("üçgenin alanı:"+alan);
 		System.out.println("üçgenin çevresi:"+cevre);
-		
-		
 		
 	}
 
